@@ -1,0 +1,85 @@
+body {
+  margin: 0px;
+  background-color: #222;
+  width: 1920px;
+  height: 1028px;
+}
+
+#menu {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: #0f9d58;
+  color: white;
+  font-size: 50px;
+  padding: 10px;
+  overflow: auto;
+}
+
+#video-container {
+  float: left;
+  background-color: #000;
+  width: 66%;
+  height: 66%;
+  margin: 1%;
+}
+
+#video {
+  margin: auto;
+  display: block;
+  height: 100%;
+}
+
+#seek-bar {
+  position: relative;
+  bottom: 25px;
+  visibility: hidden;
+}
+
+#debug-container {
+  float: right;
+  background-color: #444;
+  width: 30%;
+  height: 96%;
+  margin: 1%;
+  color: #fff;
+  overflow-y: scroll;
+  pointer-events: none;
+}
+
+#info-container {
+  float: left;
+  background-color: #555;
+  width: 66%;
+  height: 26%;
+  margin: 1%;
+  text-align: left;
+  color: #fff;
+  font-size: large;
+}
+
+#info-container th {
+  padding: 10px;
+}
+
+#info-container td {
+  width: 30%;
+}
+
+/* The slider itself */
+.slider {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 50px;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 50px; 
+  height: 50px;
+  background: #4CAF50;
+}
